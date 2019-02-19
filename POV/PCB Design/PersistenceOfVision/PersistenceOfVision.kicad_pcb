@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 9)
     (tracks 28)
     (zones 0)
     (modules 8)
@@ -477,6 +477,18 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_poly (pts (xy 163.83 75.565) (xy 172.72 61.595) (xy 167.64 62.865) (xy 172.72 48.895) (xy 165.735 48.895) (xy 164.465 66.04) (xy 167.64 65.405)) (layer B.SilkS) (width 0.15))
+  (gr_line (start 140.97 62.23) (end 140.97 171.45) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 193.04 171.45) (end 193.04 62.23) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 189.865 174.625) (end 189.865 174.625) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 144.145 174.625) (end 189.865 174.625) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 144.145 171.45) (end 140.97 171.45) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 189.865 171.45) (end 189.865 174.625) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_text "HaCkEr\n\n\nSPARKIES" (at 167.005 117.475) (layer B.SilkS)
+    (effects (font (size 5 5) (thickness 1.2)) (justify mirror))
+  )
+  (gr_arc (start 167.005 62.23) (end 193.04 62.23) (angle -180) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 152.4 123.825) (end 165.735 137.16) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 152.4 89.535) (end 152.4 123.825) (width 0.25) (layer F.Cu) (net 2))
