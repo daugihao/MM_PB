@@ -1,5 +1,5 @@
-int delayTime = 1*2; 
-int charBreak = 2.1*2; 
+int delayTime = 1; 
+int charBreak = 2.1; 
 
 int LED1 = 4;
 int LED2 = 3;
@@ -104,5 +104,5 @@ void displayString(char* s)
 
 void loop()
 {   
-  displayString("fuck off!");
+  displayString("fuck         off         !");
 }
