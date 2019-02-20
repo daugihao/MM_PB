@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name rur)(type Legacy)(uri "C:/Repositories/Midnight Madness 2019/Midnight Madness - PCBusiness/Audio/kicad.lib/kicad.lib-master/rur.lib")(options "")(descr ""))
+  (lib (name 35RAPC4BH3)(type Legacy)(uri ${KIPRJMOD}/35RAPC4BH3.lib)(options "")(descr ""))
 )

@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name DFPlayer)(type KiCad)(uri ${KIPRJMOD}/DFPlayer.pretty)(options "")(descr ""))
+  (lib (name AudioJack)(type KiCad)(uri ${KIPRJMOD}/AudioJack.pretty)(options "")(descr ""))
 )

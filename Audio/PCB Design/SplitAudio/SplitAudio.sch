@@ -25,28 +25,6 @@ F 3 "~" V 9350 2610 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3 J1
-U 1 1 5C6D2B8D
-P 4550 2750
-F 0 "J1" H 4530 3075 50  0000 C CNN
-F 1 "AudioJack3" H 4530 2984 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ311_Horizontal" H 4550 2750 50  0001 C CNN
-F 3 "~" H 4550 2750 50  0001 C CNN
-	1    4550 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack3 J2
-U 1 1 5C6D2BC9
-P 4550 3900
-F 0 "J2" H 4530 4225 50  0000 C CNN
-F 1 "AudioJack3" H 4530 4134 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ311_Horizontal" H 4550 3900 50  0001 C CNN
-F 3 "~" H 4550 3900 50  0001 C CNN
-	1    4550 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L rur:DFPLAYER_MINI U1
 U 1 1 5C6D330F
 P 6600 3150
@@ -152,10 +130,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3200 5200 3200
 Wire Wire Line
-	5200 3200 5200 4000
-Wire Wire Line
-	5200 4000 4750 4000
-NoConn ~ 4750 2850
+	5200 4200 4750 4200
 NoConn ~ 4750 3900
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -199,4 +174,43 @@ $EndComp
 Connection ~ 7150 2150
 Wire Wire Line
 	7150 2150 6000 2150
+$Comp
+L 35RAPC4BH3:35RAPC4BH3 J1
+U 1 1 5C6D5449
+P 4250 2850
+F 0 "J1" H 4355 3317 50  0000 C CNN
+F 1 "35RAPC4BH3" H 4355 3226 50  0000 C CNN
+F 2 "AudioJack:SWITCHCRAFT_35RAPC4BH3" H 4250 2850 50  0001 L BNN
+F 3 "35RAPC4BH3" H 4250 2850 50  0001 L BNN
+F 4 "Unavailable" H 4250 2850 50  0001 L BNN "Field4"
+F 5 "Switchcraft Inc." H 4250 2850 50  0001 L BNN "Field5"
+F 6 "None" H 4250 2850 50  0001 L BNN "Field6"
+F 7 "3.5mm Threaded Right Angle Stereo Jack" H 4250 2850 50  0001 L BNN "Field7"
+F 8 "None" H 4250 2850 50  0001 L BNN "Field8"
+	1    4250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 35RAPC4BH3:35RAPC4BH3 J2
+U 1 1 5C6D5508
+P 4250 4000
+F 0 "J2" H 4355 4467 50  0000 C CNN
+F 1 "35RAPC4BH3" H 4355 4376 50  0000 C CNN
+F 2 "AudioJack:SWITCHCRAFT_35RAPC4BH3" H 4250 4000 50  0001 L BNN
+F 3 "35RAPC4BH3" H 4250 4000 50  0001 L BNN
+F 4 "Unavailable" H 4250 4000 50  0001 L BNN "Field4"
+F 5 "Switchcraft Inc." H 4250 4000 50  0001 L BNN "Field5"
+F 6 "None" H 4250 4000 50  0001 L BNN "Field6"
+F 7 "3.5mm Threaded Right Angle Stereo Jack" H 4250 4000 50  0001 L BNN "Field7"
+F 8 "None" H 4250 4000 50  0001 L BNN "Field8"
+	1    4250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3200 5200 4200
+NoConn ~ 4750 2850
+NoConn ~ 4750 2950
+NoConn ~ 4750 3050
+NoConn ~ 4750 4000
+NoConn ~ 4750 4100
 $EndSCHEMATC
