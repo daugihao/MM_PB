@@ -1,11 +1,11 @@
 int delayTime = 1; 
 int charBreak = 2.1; 
 
-int LED1 = 4;
-int LED2 = 3;
-int LED3 = 2;
-int LED4 = 1;
-int LED5 = 0;
+int LED1 = 2;
+int LED2 = 1;
+int LED3 = 0;
+int LED4 = 3;
+int LED5 = 4;
 
 void setup()
 {
@@ -104,5 +104,5 @@ void displayString(char* s)
 
 void loop()
 {   
-  displayString("fuck         off         !");
+  displayString("aaaaaaaabbbbbbbbccccccccddddddddeeeeeeee");
 }
