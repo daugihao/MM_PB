@@ -1,11 +1,11 @@
-int delayTime = 1; 
-int charBreak = 2.1; 
+int delayTime = 1*1.5; 
+int charBreak = 2.1*1.5; 
 
-int LED1 = 2;
-int LED2 = 1;
+int LED1 = 4;
+int LED2 = 3;
 int LED3 = 0;
-int LED4 = 3;
-int LED5 = 4;
+int LED4 = 1;
+int LED5 = 2;
 
 void setup()
 {
@@ -40,7 +40,7 @@ int u[] = {30, 1, 1, 30, 0};
 int v[] = {24, 6, 1, 6, 24};
 int w[] = {28, 3, 12, 3, 28};
 int x[] = {17, 10, 4, 10, 17};
-int y[] = {17, 10, 4, 8, 16};
+int y[] = {16, 8, 7, 8, 16};
 int z[] = {19, 21, 21, 25, 0};
 
 int eos[] = {0, 1, 0, 0, 0};
@@ -104,5 +104,5 @@ void displayString(char* s)
 
 void loop()
 {   
-  displayString("aaaaaaaabbbbbbbbccccccccddddddddeeeeeeee");
+  displayString("atoyota  ");
 }
