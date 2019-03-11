@@ -1,13 +1,14 @@
 EESchema Schematic File Version 4
+LIBS:PersistenceOfVision-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Decoder Board"
+Date "2004-03-11"
+Rev "5.32"
+Comp "Sparkies"
 Comment1 ""
 Comment2 ""
 Comment3 ""
