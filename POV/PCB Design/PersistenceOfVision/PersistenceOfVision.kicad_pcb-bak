@@ -11,10 +11,10 @@
 
   (page A4)
   (title_block
-    (title "Persistence of Vision Board")
-    (date 2019-02-19)
-    (rev 1)
-    (company "Will Reynolds")
+    (title "Decoder Board")
+    (date 2004-03-11)
+    (rev 5.32)
+    (company Sparkies)
   )
 
   (layers
